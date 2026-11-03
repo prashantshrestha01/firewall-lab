@@ -1,0 +1,14 @@
+# firewall-lab sample rules
+# Format: action direction protocol port [from source]
+# First matching rule wins. Unmatched traffic falls to the default policy.
+
+default-policy in deny
+default-policy out allow
+
+allow in tcp 22 from any
+deny in tcp 23 from any
+allow in tcp 80 from any
+allow in tcp 443 from any
+allow in tcp 8000-8100 from 192.168.1.0/24
+deny in tcp any from 10.0.0.0/8
+allow out udp 53 from any

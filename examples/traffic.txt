@@ -1,0 +1,13 @@
+# firewall-lab sample traffic
+# Format: source_ip destination_port protocol direction
+
+203.0.113.5 22 tcp in
+203.0.113.5 23 tcp in
+203.0.113.5 80 tcp in
+192.168.1.50 8050 tcp in
+192.168.1.50 9000 tcp in
+10.0.0.9 443 tcp in
+10.0.0.9 22 tcp in
+203.0.113.5 3389 tcp in
+192.168.1.50 53 udp out
+203.0.113.5 53 udp out
