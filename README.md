@@ -142,4 +142,4 @@ intentionally empty). Python 3.10+ is enough.
 - `examples/traffic.txt` — sample traffic
 - `tests/test_firewall_lab.py` — test suite
 
-*Built by Prashant Shrestha · Mississauga, ON 🇨🇦 · [LinkedIn](https://www.linkedin.com/in/cto-prashant/)*
+*Built by Prashant Shrestha · Mississauga, ON 🇨🇦 · [LinkedIn](https://www.linkedin.com/in/prashant-me/)*
